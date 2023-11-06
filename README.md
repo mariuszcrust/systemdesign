@@ -17,7 +17,10 @@
 
 ![MonteCarloCase (1)](https://github.com/mariuszcrust/systemdesign/assets/7340196/426422b3-eefd-47ab-a275-d17fe22a30e2)
 
-
+Multitenancy:
+On the database level by column tenant_id or schema. 
+During requests, we can set an additional header in the request to identify tenants. 
+In Kafka, we can have different topics with the syntax ClientX.TopicY (topic pattern). In Avro, we can force events to keep information about tenant ID
 
 
 
