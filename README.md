@@ -2,7 +2,8 @@
 (INBOUND, EXTERNAL) : A customer uses Monte Carlo as a tool for data observability. They have set it up so that Monte Carlo catches any table health or data reliability issues early on. The customer would like XYZ to also become a near-real-time repository of such issues, with relevant metadata attached to respective assets.
 
 
-![MonteCarloCase (1)](https://github.com/mariuszcrust/systemdesign/assets/7340196/426422b3-eefd-47ab-a275-d17fe22a30e2)
+![MonteCarloCase (1)](https://github.com/mariuszcrust/systemdesign/assets/7340196/861e904b-d242-474a-990e-47b788e30c93)
+
 
 
 
@@ -10,7 +11,8 @@
 (OUTBOUND, INTERNAL) : There are internal enrichment automation requirements towards metadata into XYZ, such that any change in the XYZ entity triggers similar changes to entities connected downstream in lineage from that entity.
 
 
-![DataLineageEnrichment (1)](https://github.com/mariuszcrust/systemdesign/assets/7340196/9f2a5165-201d-4e0a-a058-3ef64a526bb4)
+![DataLineageEnrichment (1)](https://github.com/mariuszcrust/systemdesign/assets/7340196/f5c9e617-c173-4380-b044-5a50a79bb174)
+
 
 
 
